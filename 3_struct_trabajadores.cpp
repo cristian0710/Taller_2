@@ -43,13 +43,17 @@ void menor_mayor(int *p)
             aux=empleado[i].sal;
             c=i;
         }
+    }
 
+    for(int i=0;i<*p;i++)
+    {
         if(aux2>=empleado[i].sal)
         {
             aux2=empleado[i].sal;
             c2=i;
         }
     }
+
     printf("\n******MEYOR SALARIO******\n");
     printf("Nombre: %s\n",empleado[c].nom);
     printf("Cedula: %d\n",empleado[c].ced);
@@ -60,7 +64,6 @@ void menor_mayor(int *p)
     printf("Cedula: %d\n",empleado[c2].ced);
     printf("Sueldo: %d\n",aux2);
 
-    printf("%d",*p);
 }
 
 
