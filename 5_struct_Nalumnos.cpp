@@ -88,8 +88,6 @@ void mayor_menor(int *p)
     printf("Grado: %d\n",alumno[c2].grd);
     printf("Promedio: %1.1f\n",aux2);
 
-    system("pause");
-
 }
 
 
